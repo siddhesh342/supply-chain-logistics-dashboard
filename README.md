@@ -1,8 +1,12 @@
-# supply-chain-logistics-dashboard
+# Supply Chain Logistics Dashboard
 Interactive Excel dashboard created to analyze fulfillment speeds, carrier reliability, and regional shipping costs.
 
 # Project Overview
 This project is about analyzing shipping performance, carrier reliability, and delivery costs. I built an interactive dashboard to help the logistics team identify where delays are happening, which carriers are underperforming, and how freight expenses are split across regions.
+
+# Project Objective
+
+The objective of this project was to evaluate shipping performance, identify delivery delays, analyze carrier reliability, and understand regional freight costs through an interactive Excel dashboard.
 
 # Tools Used
 - Microsoft Excel
@@ -21,17 +25,13 @@ This project is about analyzing shipping performance, carrier reliability, and d
   
 
  # What I Did (Step-by-Step)
- - Merged Tables: Instead of using messy VLOOKUP formulas, I used Merge Queries in Power Query to join the Orders and Logistics tables together using a Left          Outer Join on the OrderID column.
-    
- - Data Cleaning: Cleaned up missing values, fixed data types (making sure costs are currency and dates are proper dates), and calculated total transit days.
-    
- - Added Logic: Created a conditional column to automatically flag rows as "On time" or "Late" based on transit targets.
-    
- - Built the Analysis: Set up Pivot Tables to calculate baseline numbers like our 53% on-time rate and the 3.7-day average delivery speed.
-    
- - Created Visuals: Built a dashboard page with dynamic KPI cards linked directly to pivot tables. For the regional analysis, I used a combo chart with a             secondary axis so I could show total shipping costs (columns) and average delivery days (line) together without ruining the scale.
-    
- - Added Filters: Connected slicers for transit days and order IDs, along with a native timeline filter, so users can slice and dice the whole dashboard              dynamically.
+   Key Tasks Performed
+   
+- Merged Orders and Logistics datasets using Power Query.
+- Cleaned and transformed data by handling missing values and correcting data types.
+- Created calculated columns to classify shipments as On-Time or Late.
+- Built Pivot Tables to analyze shipping performance and carrier efficiency.
+- Developed an interactive Excel dashboard using KPI cards, charts, slicers, and timelines.
 
    # Business Questions Answered
   - What is our overall on-time delivery rate and average shipping time?
@@ -41,7 +41,15 @@ This project is about analyzing shipping performance, carrier reliability, and d
   - Which zones spend the most on shipping compared to how fast they deliver?
     
   - Which customer segments are facing the highest risk of late shipments?
-   
+ 
+    # Key Insights
+
+    - Overall on-time delivery rate was 53%.
+    - Average delivery cycle time was 3.7 days.
+    - BlueDart accounted for the highest proportion of delayed shipments.
+    - Certain regions incurred higher shipping costs without corresponding delivery speed improvements.
+    - Delivery performance varied significantly across customer segments.
+       
    # Dashboard Elements
   - Key Metrics: Summary cards showing the 3.7-day average cycle time and the On-Time vs. Late percentage split.
       
