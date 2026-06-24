@@ -58,6 +58,12 @@ The objective of this project was to evaluate shipping performance, identify del
   - Regional Cost vs. Speed: A combo chart breaking down shipping costs against average transit days by zone.
       
   - Interactive Controls: Slicers and timelines linked to all charts so the data updates instantly when clicked.
+ 
+  - ![supply-chain-logistics-dashboard
+](supply_chain_dashboard.png)
+
+by 
+Siddhesh Gadadhare
     
     
 
